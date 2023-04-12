@@ -15,6 +15,8 @@ class MainWindow : public QMainWindow
 
 public:
     explicit MainWindow(QWidget *parent = nullptr);
+    //获取CPU信息
+    const QString getMemory();
     ~MainWindow();
 
 private:
